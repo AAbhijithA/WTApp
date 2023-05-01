@@ -11,6 +11,7 @@ Implemented a Restful API with django by using an external api **(OpenWeatherMap
 ### Running Django Backend
 If you do not have python on your system download it from here: [Download Python](
 https://www.python.org/downloads/)
+
 we can run the following project by first downloading all the dependencies from the requirements.txt file by
 ```
 >> pip install -r requirements.txt
