@@ -28,10 +28,10 @@ After this we run either of the following commands on the terminal, first being 
 >> cd frontend
 >> \frontend> npm start
 ```
-Or we can make a build and then run the optimized production build
+Or we can make a build and then run the optimized production build:
 ```
 >> cd frontend
 >> \frontend> npm run build
 >> \frontend> serve -s build
 ```
-Now we can enter any city name and return the values of temperature in celcius and its humidity%
+Now we can enter any city name and return the values of temperature in celcius and its humidity%.
