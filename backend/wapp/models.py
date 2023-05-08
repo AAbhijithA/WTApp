@@ -13,7 +13,7 @@ class Wapp(models.Model):
 @receiver(post_save, sender=Wapp)
 def update_details(sender, instance, created, **kwargs):
     if created or instance.temp is None:
-        api_key = "231f9a1f603b3c2b6af57b239d14b2d7"
+        api_key = "enter your api key"
         url = f"http://api.openweathermap.org/data/2.5/weather?q={instance.city}&appid={api_key}"
         response = requests.get(url)
         instance.temp = response.json()['main']['temp']
