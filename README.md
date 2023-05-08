@@ -9,8 +9,9 @@
 Implemented a Restful API with django by using an external api **(OpenWeatherMap API)** and connecting to the frontend via ports to get data on weather of a given city.
 - - - -
 ### Running Django Backend
-If you do not have python on your system download it from here: [Download Python](
-https://www.python.org/downloads/)
+If you do not have python on your system download it from here: [Download Python](https://www.python.org/downloads/)
+
+***(Note: Get your API key from OpenWeatherMap API by signing in and creating a key here [Get API Key](https://openweathermap.org/api), then put your API key in here: [Modify API key](https://github.com/AAbhijithA/WTApp/blob/main/backend/wapp/models.py))***
 
 we can run the following project by first downloading all the dependencies from the requirements.txt file by
 ```
